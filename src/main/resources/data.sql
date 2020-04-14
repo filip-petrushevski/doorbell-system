@@ -1,0 +1,3 @@
+INSERT INTO flag
+VALUES ('eventsOn', FALSE), ('isHome', FALSE)
+ON CONFLICT DO NOTHING;
